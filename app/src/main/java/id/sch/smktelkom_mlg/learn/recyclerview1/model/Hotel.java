@@ -16,3 +16,4 @@ public class Hotel {
         this.foto = foto;
     }
 }
+

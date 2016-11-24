@@ -16,7 +16,6 @@ import id.sch.smktelkom_mlg.learn.recyclerview1.model.Hotel;
  * Created by lenovo on 06/11/2016.
  */
 public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> {
-
     ArrayList<Hotel> hotelList;
 
     public HotelAdapter(ArrayList<Hotel> hotelList) {
@@ -57,4 +56,5 @@ public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> 
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }
+
 }
